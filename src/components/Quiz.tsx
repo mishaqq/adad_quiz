@@ -180,7 +180,7 @@ function Quiz({ onStart, onEnd }: QuizProps) {
   const [showScore, setShowScore] = useState(false);
   const [started, setStarted] = useState(false);
   const [lastInteraction, setLastInteraction] = useState(Date.now());
-  const [language, setLanguage] = useState<"en" | "de">("en");
+  const [language, setLanguage] = useState<"en" | "de">("de");
 
   const t = translations[language];
   const currentQuestions = questions[language];
