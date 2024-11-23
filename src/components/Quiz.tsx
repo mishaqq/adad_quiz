@@ -67,13 +67,13 @@ const questions: Record<string, Question[]> = {
     },
     {
       question: "How many letters are in the word 'butterfly'?",
-      options: ["10", "12", "11"],
+      options: ["10", "12", "13"],
       correct: 2,
     },
     {
       question: "What is 15 + 7 – 5?",
       options: ["16", "18", "17"],
-      correct: 1,
+      correct: 2,
     },
     {
       question: "How many hours are there in a day?",
@@ -121,13 +121,13 @@ const questions: Record<string, Question[]> = {
     },
     {
       question: "Wie viele Buchstaben hat das Wort „Schmetterling“?",
-      options: ["10", "12", "11"],
+      options: ["10", "12", "13"],
       correct: 2,
     },
     {
       question: "Was ist 15 + 7 – 5?",
       options: ["16", "18", "17"],
-      correct: 1,
+      correct: 2,
     },
     {
       question: "Wie viele Stunden hat ein Tag?",
